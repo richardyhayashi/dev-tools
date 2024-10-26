@@ -11,10 +11,12 @@ Source: .
 4. What makes it fast?
 5. Creating Static Server
 6. Using Templates 
-7.
+7. Tailwind Integration
 8.
 9.
 10.
+11.
+
 
 ## Notes
 
@@ -29,3 +31,8 @@ Source: .
 `$ npm create vite my-vue-app -- --template vue`
 
 `$ npm create vite [.|react-vite] -- --template react`
+
+### Install Tailwind CSS
+
+`$ npm i -D tailwindcss postcss autoprefixer`
+`$ npx tailwindcss init -p`
