@@ -10,7 +10,7 @@ Source: .
 3. Introduction
 4. What makes it fast?
 5. Creating Static Server
-6.
+6. Using Templates 
 7.
 8.
 9.
@@ -21,3 +21,11 @@ Source: .
 ### Install Vite
 
 `$ npm install --save-dev vite`
+
+### Create App
+
+`$ npm create vite my-js-app -- --template vanilla`
+
+`$ npm create vite my-vue-app -- --template vue`
+
+`$ npm create vite [.|react-vite] -- --template react`
